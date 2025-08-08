@@ -1,5 +1,6 @@
 package com.techstore.carrito.Entities;
 
+import java.io.Serializable;
 import java.util.Set;
 
 import com.techstore.carrito.Resources.Rol;
@@ -18,7 +19,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "usuarios")
-public class Usuario {
+public class Usuario implements Serializable {
 
     @Id 
     @GeneratedValue(strategy = GenerationType.AUTO)
