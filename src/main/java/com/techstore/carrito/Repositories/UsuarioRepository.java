@@ -1,9 +1,9 @@
 package com.techstore.carrito.Repositories;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.techstore.carrito.Entities.Producto;
+import com.techstore.carrito.Entities.Usuario;
 
-public interface UsuarioRepository extends CrudRepository<Producto, Long> {
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
 }
