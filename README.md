@@ -50,3 +50,7 @@ Consideraciones:
 - Los productos vienen de alguna otra API externa, no son creados aquí.
 - Posiblemente haya que adaptar el código actual del FrontEnd para que funcione con esta API, son proyectos separados.
 - Esta API no incluye ningún tipo de pasarela de pago.
+
+Base de datos:
+- Cada usuario tiene muchos carritos
+- Cada carrito tiene muchos productos
